@@ -10,9 +10,9 @@ band - band of elements, like articles, news or sth
 lang - every lang has own inerface  
 user_add - choose whether user can add children to this element or only admin can do it  
 
-# CMS - Interfaces - List
+## List
 
-## View (list.phtml)
+### View (list.phtml)
 
 $goBackUrl - doesn't exist if it's first page (Page elements)  
 $addButton - doesn't exist if:
