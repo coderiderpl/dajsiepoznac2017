@@ -4,7 +4,7 @@ DOC
 
 ## Databse
 
-depth - what is depth of this element in band  
+depth - how deep is this element in band  
 end_depth - is that element last in deep way? If yes - user can't roll up it for children  
 band - band of elements, like articles, news or sth  
 lang - every lang has own inerface  
