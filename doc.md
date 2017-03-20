@@ -4,11 +4,11 @@ DOC
 
 ## Databse
 
-depth - what is depth of this element in band
-end_depth - is that element last in deep way? If yes - user can't roll up it for children
-band - band of elements, like articles, news or sth
-lang - every lang has own inerface
-user_add - choose whether user can add children to this element or only admin can do it
+depth - what is depth of this element in band  
+end_depth - is that element last in deep way? If yes - user can't roll up it for children  
+band - band of elements, like articles, news or sth  
+lang - every lang has own inerface  
+user_add - choose whether user can add children to this element or only admin can do it  
 
 # CMS - Interfaces - List
 
