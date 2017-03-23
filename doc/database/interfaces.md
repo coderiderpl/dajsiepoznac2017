@@ -16,14 +16,10 @@ What is a depth of element in band (group).
 Depth doesn't decide about parent-child queue. For this we have parent_id in classes table.
 ## end_depth (int) [0|1]
 Is it last element in group?
-## Lang (string)
+## lang (string)
 Why interfaces have lang? Cause every lang can have different config for app scheme. That's why it's doubled - in interfaces and classes.
-## user_add (int) [0|1]
-Can user add child(ren) to this elmenet?
-Note: If it's set to 1 - remember to add interface (config) for children.
-## title (string)
-Element title
-## url (string)
-Complete url to this element (without domain name)
-## queue
-Queue of elements in one parent group.
+## url_pattern (string)
+Pattern for url - used when user (and only user) create (insert) new element.
+Note: Parameters:
+1. #URL# - is changed to url created from title
+2. #ID# - is changed to element id
