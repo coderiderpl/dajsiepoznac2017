@@ -21,3 +21,9 @@ Why interfaces have lang? Cause every lang can have different config for app sch
 ## user_add (int) [0|1]
 Can user add child(ren) to this elmenet?
 Note: If it's set to 1 - remember to add interface (config) for children.
+## title (string)
+Element title
+## url (string)
+Complete url to this element (without domain name)
+## queue
+Queue of elements in one parent group.
