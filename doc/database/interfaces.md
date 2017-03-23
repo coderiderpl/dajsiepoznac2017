@@ -1,5 +1,10 @@
 # Interfaces table
 
+Interfaces table is something like config for element on page (classes).  
+For example - if we want to add articles module to our app we need:  
+1. Config too decide how each article will looks like (images? audio files? tags? etc.) - That's interface.
+2. Specific article - in classes table.
+
 ## id (int)
 AUTO_INCREMENT id
 ## band (string)
