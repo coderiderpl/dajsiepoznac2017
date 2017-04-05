@@ -1,0 +1,16 @@
+{
+    "name": "CodeRider/NewSiteCms",
+    "description": "System CMS - Daj się poznać 2017",
+    "homepage": "http://coderider.pl",
+    "type": "mvc, cms, dsp17",
+    "license": "GNU GPL",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeRider\\NewSiteCms\\": "cms/src/",
+            "CodeRider\\": "src/"
+        }
+    }
+}
