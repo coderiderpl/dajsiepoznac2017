@@ -12,3 +12,6 @@ Get all textareas
 
 # ['images']
 Get all images info + images and thumbs paths
+
+# ['audio']
+Get all paths, titles, descriptions of audios
